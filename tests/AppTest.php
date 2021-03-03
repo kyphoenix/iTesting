@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use App\NumberAdder\NumberAdder;
+use Test\NumberAdder\NumberAdder;
 
 class ExampleTest extends TestCase
 {
