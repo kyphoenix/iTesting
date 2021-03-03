@@ -1,6 +1,6 @@
 {
-    "name": "crc/crc-signup-module",
-    "description": "Module to handle the new registration for CRC",
+    "name": "Testing With Jenkins",
+    "description": "Simple sample test with Jenkins",
     "require": {
       "phpunit/phpunit": "6.5.5"
     },
