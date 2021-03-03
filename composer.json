@@ -1,5 +1,5 @@
 {
-    "name": "Testing With Jenkins",
+    "name": "testingwithjenkins",
     "description": "Simple sample test with Jenkins",
     "require": {
       "phpunit/phpunit": "6.5.5"
