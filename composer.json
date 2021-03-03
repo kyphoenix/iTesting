@@ -1,5 +1,5 @@
 {
-    "name": "testingwithjenkins",
+    "name": "kyphoenix/itesting",
     "description": "simplesampletestwithjenkins",
     "require": {
       "phpunit/phpunit": "6.5.5"
