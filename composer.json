@@ -2,7 +2,7 @@
     "name": "kyphoenix/itesting",
     "description": "simplesampletestwithjenkins",
     "require": {
-      "phpunit/phpunit": "6.5.5"
+      "phpunit/phpunit": "9.5.2"
     },
     "autoload": {
       "psr-4": {
