@@ -1,12 +1,45 @@
 {
-    "name": "kyphoenix/itesting",
-    "description": "simplesampletestwithjenkins",
+    "name": "kyphoenix/iTesting",
+    "type": "nativephp",
+    "description": "NATIVE PHP",
+    "keywords": [
+        "PHPUnit_Framework_TestCase"
+        
+        
+    ],
+    "homepage": "https://github.com/kyphoenix/iTesting",    
+    "authors": [
+        {
+            "name": "Prosperous_Kenny",
+            "email": "kenmariki@gmail.com"
+        }
+    ],
     "require": {
-      "phpunit/phpunit": "9.5.2"
+        "php": ">=5.4.0"
+      
     },
+    "require-dev": {
+        "phpunit/phpunit": "~6.9.5"
+    },
+    
     "autoload": {
-      "psr-4": {
-        "Test\\": "myApp/"
-      }
+        "files": ["myApp/myapp.php"]
+    },
+    
+    "autoload": {
+       "classmap": [
+            "myApp/"
+        ]
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Testing\\": "myApp/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RealTesting\\": "tests/"
+        }
     }
-  }
+}
