@@ -1,5 +1,5 @@
 <?php
-namespace Test\NumberAdder;
+namespace Testing\NumberAdder;
 
 class NumberAdder 
 {
