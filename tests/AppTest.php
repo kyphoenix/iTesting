@@ -1,4 +1,5 @@
 <?php
+namespace RealTesting;
 use PHPUnit\Framework\TestCase;
 use Test\NumberAdder\NumberAdder;
 
